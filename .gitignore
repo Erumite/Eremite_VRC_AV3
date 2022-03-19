@@ -1,0 +1,12 @@
+# Ignore *EVERYTHING* by default
+/*
+
+# Include assets directory, but ignore everything inside by default.
+!/Assets/
+/Assets/*
+
+# Allow specific directories/files through
+!.gitignore
+!/ProjectSettings/
+!/Assets/Eremite*
+!/README.md
