@@ -33,6 +33,7 @@ Once that's sorted, you can just do a git pull for updates.
 
 # Releases
  * [Flying Rig](/Assets/Eremite/FlyingRig) - A keypad that uses 3D objects rather than a Unity UI
+ * [Following Pet](/Assets/Eremite/FollowingPet) - A little (flying) pet that follows you around.
 
 ---
 
