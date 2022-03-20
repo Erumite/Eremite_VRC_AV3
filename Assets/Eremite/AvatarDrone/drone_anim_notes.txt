@@ -1,0 +1,10 @@
+Using only a single parameter to drive as much behavior as possible.
+
+Syncing is not needed as the majority of the animations are played locally.
+
+
+INT - DroneToggles
+ * Enable Drone DT = 1
+ * Disable Drone = 2
+ * Drone Return = 3
+ * Enable Drone VR = 4

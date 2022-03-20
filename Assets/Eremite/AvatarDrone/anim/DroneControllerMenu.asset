@@ -12,4 +12,44 @@ MonoBehaviour:
   m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
   m_Name: DroneControllerMenu
   m_EditorClassIdentifier: 
-  controls: []
+  controls:
+  - name: Drone DT
+    icon: {fileID: 0}
+    type: 101
+    parameter:
+      name: droneToggle
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Drone VR
+    icon: {fileID: 0}
+    type: 101
+    parameter:
+      name: droneToggle
+    value: 4
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Drone OFF
+    icon: {fileID: 0}
+    type: 101
+    parameter:
+      name: droneToggle
+    value: 2
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Drone Return
+    icon: {fileID: 0}
+    type: 101
+    parameter:
+      name: droneToggle
+    value: 3
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
