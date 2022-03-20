@@ -21,7 +21,7 @@ Animations can also be applied to the following object to give it more natural m
   * `bone_1` should be by your feet and slightly behind you.
   * `cubey-boi_minion` should be where you want its default rest position and slightly back from `bone_1`
 3. Rename game objects to whatever you want.  My naming convention is silly.
-4. Remove the `mesh_renderer` and `mesh_filter` from `bone_1`.  It's there for visualizing how it moves when setting up.
+4. Delete the `midbone-demo-DELETE` child object from `bone_1`.  It's there for visualizing how it moves when setting up.
 5. Press play and make sure it moves how you want.  Demo values in dynamic bones may not give the movement you want.
 
 NOTE: When copying from my testing avatar to the demo scene, I wasn't able to move the game objects while the Dynamic Bone script was enabled.  Also it would snap back to its original position if I re-enabled the script.  If you have this problem, delete the dynamic bone script from `following_minion` after adding the prefab, move things into position, then `copy`/`paste component as new` from the prefab to the `following_minion` game object.
@@ -32,6 +32,6 @@ NOTE: When copying from my testing avatar to the demo scene, I wasn't able to mo
 
 **Component explanations:**
 * **following_minion**: This serves as the root of the dynamic bone script.
-* **bone_1** : Simply a mid-bone. Added a mesh renderer to the demo scene to visualize how it's working.
+* **bone_1** : Simply a mid-bone. (Child object, `midbone-demo-DELETE` exists only for visualization)
 * **cubey-boi minion** : Sample minion.  This should be replaced with whatever you want to follow you.
 * **dummy_body** and **dummy_armature** : If the minion is rigged, you will need to add their skinned mesh renderer and armature to the exclusions of the following minion dynamic bone script.
