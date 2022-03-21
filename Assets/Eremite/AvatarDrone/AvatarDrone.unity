@@ -550,7 +550,7 @@ Camera:
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 4090625
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 8400000, guid: fb1c8c3fd286b8d40b9d45905ace4f36, type: 2}
   m_TargetDisplay: 0
@@ -1889,7 +1889,7 @@ GameObject:
   - component: {fileID: 1309486611}
   - component: {fileID: 1309486610}
   m_Layer: 0
-  m_Name: Pyramid
+  m_Name: Drone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2355,6 +2355,8 @@ MonoBehaviour:
     isDefault: 1
   AnimationPreset: {fileID: 0}
   animationHashSet:
+  - hash: 724654109
+    name: drone_resting
   - hash: -744904322
     name: drone_enabled_DT
   - hash: -1606848511
@@ -2365,6 +2367,10 @@ MonoBehaviour:
     name: drone_enabled_VR
   - hash: -1444175745
     name: Drone Return VR
+  - hash: -1118162890
+    name: drone_forward
+  - hash: 1530493895
+    name: resting
   autoFootsteps: 1
   autoLocomotion: 1
 --- !u!95 &1517810737
@@ -2571,7 +2577,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1586437807}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: -0.0000001872535, y: -0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -2593,7 +2599,7 @@ RotationConstraint:
   m_AffectRotationX: 1
   m_AffectRotationY: 1
   m_AffectRotationZ: 1
-  m_IsContraintActive: 1
+  m_IsContraintActive: 0
   m_IsLocked: 0
   m_Sources:
   - sourceTransform: {fileID: 2115273686}
@@ -2895,7 +2901,7 @@ Camera:
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 4090625
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 8400000, guid: fb1c8c3fd286b8d40b9d45905ace4f36, type: 2}
   m_TargetDisplay: 0
@@ -3037,6 +3043,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1921271898}
   - component: {fileID: 1921271899}
+  - component: {fileID: 1921271900}
   m_Layer: 0
   m_Name: ResetContainer
   m_TagString: Untagged
@@ -3080,10 +3087,29 @@ ParentConstraint:
   m_AffectRotationX: 1
   m_AffectRotationY: 1
   m_AffectRotationZ: 1
-  m_IsContraintActive: 1
+  m_IsContraintActive: 0
   m_IsLocked: 0
   m_Sources:
   - sourceTransform: {fileID: 359294354}
+    weight: 1
+--- !u!1818360608 &1921271900
+PositionConstraint:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1921271897}
+  m_Enabled: 1
+  m_Weight: 1
+  m_TranslationAtRest: {x: 0, y: 0, z: 0}
+  m_TranslationOffset: {x: 0, y: 0, z: 0}
+  m_AffectTranslationX: 1
+  m_AffectTranslationY: 1
+  m_AffectTranslationZ: 1
+  m_IsContraintActive: 1
+  m_IsLocked: 0
+  m_Sources:
+  - sourceTransform: {fileID: 543450652191327975}
     weight: 1
 --- !u!1 &1992892043
 GameObject:
@@ -3870,13 +3896,36 @@ GameObject:
   - component: {fileID: 543450652191327975}
   - component: {fileID: 3469287838189521218}
   - component: {fileID: 1711813854395006344}
+  - component: {fileID: 919132148523457630}
   m_Layer: 0
-  m_Name: Pyramid
+  m_Name: Drone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!1773428102 &919132148523457630
+ParentConstraint:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919132148523457629}
+  m_Enabled: 1
+  m_Weight: 1
+  m_TranslationAtRest: {x: 0, y: 0, z: 0}
+  m_RotationAtRest: {x: 0, y: 0, z: 0}
+  m_TranslationOffsets: []
+  m_RotationOffsets: []
+  m_AffectTranslationX: 1
+  m_AffectTranslationY: 1
+  m_AffectTranslationZ: 1
+  m_AffectRotationX: 1
+  m_AffectRotationY: 1
+  m_AffectRotationZ: 1
+  m_IsContraintActive: 0
+  m_IsLocked: 0
+  m_Sources: []
 --- !u!4 &947290646283237924
 Transform:
   m_ObjectHideFlags: 0
@@ -4557,7 +4606,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8157677260354479487}
-  m_LocalRotation: {x: -0.0067553674, y: -0.0035688058, z: -0.0035584217, w: 0.9999645}
+  m_LocalRotation: {x: -0.006755368, y: -0.0035688058, z: -0.003558422, w: 0.9999645}
   m_LocalPosition: {x: 0.000000048428774, y: 0.05883398, z: 0.000000041909516}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -4876,7 +4925,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1023764442369452323}
-  m_LocalRotation: {x: -0.043830972, y: -0.0693105, z: 0.056735393, w: 0.99501556}
+  m_LocalRotation: {x: -0.043830976, y: -0.0693105, z: 0.056735396, w: 0.99501556}
   m_LocalPosition: {x: -0.000000016763806, y: 0.18575887, z: 0.000000059604645}
   m_LocalScale: {x: 0.99999994, y: 0.99999994, z: 1}
   m_Children:
@@ -5094,7 +5143,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 636210563058803146}
-  m_LocalRotation: {x: -0.041095704, y: -0.043406323, z: 0.01461468, w: 0.99810493}
+  m_LocalRotation: {x: -0.041095708, y: -0.043406323, z: 0.014614681, w: 0.99810493}
   m_LocalPosition: {x: 0.0000000018626451, y: 0.023024827, z: -0.00000010058284}
   m_LocalScale: {x: 0.99999994, y: 1, z: 0.99999994}
   m_Children: []

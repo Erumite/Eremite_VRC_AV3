@@ -53,3 +53,13 @@ MonoBehaviour:
     subMenu: {fileID: 0}
     subParameters: []
     labels: []
+  - name: Drone Settings
+    icon: {fileID: 0}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: 307277607b66e604ea0e25cd5affdf1c, type: 2}
+    subParameters: []
+    labels: []
