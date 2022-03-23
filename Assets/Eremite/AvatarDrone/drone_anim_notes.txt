@@ -5,10 +5,12 @@ Syncing is not needed as the majority of the animations are played locally.
 
 INT - DroneToggles
  - Enable/Disable/Reset
-   * Enable Drone DT = 1
-   * Disable Drone = 2
-   * Drone Return = 3
-   * Enable Drone VR = 4
+   * 1 = Enable Drone DT
+   * 2 = Disable Drone
+   * 3 = Drone Return
+   * 4 = Enable Drone VR
 
- Needs Fix: 
-  * Rotation on wrist tracker to a default position of forward.
+ - Toggle Addons:
+   * 5 = All OFF
+   * 6 = Light Toggle
+   

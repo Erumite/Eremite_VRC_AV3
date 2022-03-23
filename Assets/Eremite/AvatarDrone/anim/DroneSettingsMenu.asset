@@ -24,3 +24,23 @@ MonoBehaviour:
     subParameters:
     - name: droneSpeed
     labels: []
+  - name: Addons OFF
+    icon: {fileID: 0}
+    type: 101
+    parameter:
+      name: droneToggle
+    value: 5
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Light Toggle
+    icon: {fileID: 0}
+    type: 101
+    parameter:
+      name: droneToggle
+    value: 6
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
