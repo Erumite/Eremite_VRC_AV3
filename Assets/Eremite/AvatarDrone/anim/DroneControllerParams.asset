@@ -32,4 +32,4 @@ MonoBehaviour:
   - name: droneSpeed
     valueType: 1
     saved: 0
-    defaultValue: 0
+    defaultValue: 0.5
