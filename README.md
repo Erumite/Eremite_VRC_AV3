@@ -29,6 +29,14 @@ You can probably also just clone this repo to a folder and open it as a new proj
 
 Once that's sorted, you can just do a git pull for updates.
 
+#### Setting up Avatars from Samples
+
+SDK3 is much less user-friendly for setting up avatars from prefabs than SDK2 was, requiring a lot of fiddling with animators and parameters instead of the old drag and drop.
+
+Some stuff that might make it easier:
+* [Animator Extensions](https://github.com/lukis101/VRCUnityStuffs/tree/master/Scripts/Editor) - Allow copy/pasting animator layers.  Useful if you want to add a prefab with animations to your existing controller override.
+  * Alternative by Lox9973 [here](https://gitlab.com/lox9973/ShaderMotion/-/blob/dev/Addon/VRCA/Editor/AnimatorControllerUtil.cs)
+
 ---
 
 # Releases
