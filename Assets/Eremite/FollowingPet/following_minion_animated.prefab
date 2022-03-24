@@ -72,7 +72,6 @@ GameObject:
   m_Component:
   - component: {fileID: 5387431356154824465}
   - component: {fileID: 5377891376050340833}
-  - component: {fileID: 5350214213979695055}
   - component: {fileID: 5370222807881415231}
   m_Layer: 0
   m_Name: cubey-boi minion
@@ -105,19 +104,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5390983177433847989}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!65 &5350214213979695055
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5390983177433847989}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &5370222807881415231
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -322,7 +308,6 @@ GameObject:
   - component: {fileID: 7216432129445937961}
   - component: {fileID: 7216432129445937964}
   - component: {fileID: 7216432129445937963}
-  - component: {fileID: 7216432129445937962}
   m_Layer: 0
   m_Name: midbone-demo-DELETE
   m_TagString: Untagged
@@ -391,16 +376,3 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &7216432129445937962
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7216432129445937960}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}

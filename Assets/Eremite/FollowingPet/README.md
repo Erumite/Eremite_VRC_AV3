@@ -1,6 +1,13 @@
 ## Super Simplified Pet/Minion System
 **Have a pet set at a specified location on your avatar to have it follow you relatively fluidly.**
 
+Performance: <img src="https://i.imgur.com/zK7p4wv.png" width="24"/> Good  
+```
+ 1   Dynamic Bone Component
+ 4   Dynamic Bone Count
+ 1   Animator Count (Optional)
+```
+
 Achieves the effect with one dynamic bone script and two transforms.  Very low performance cost.  
 *Note*: Will need updating to PhysBones when availabe, but same concept should apply.
 
