@@ -1,4 +1,9 @@
 # Flying Rig
+Performance: <img src="https://i.imgur.com/zK7p4wv.png" width="24"/> Good  
+```
+1 Physics Collider
+```
+
 #### Codename: Magic Carpet Ride
 New setup of the flying rig that works pretty decently after version 772.
 
