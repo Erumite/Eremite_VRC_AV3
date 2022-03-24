@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   controls:
   - name: Drone DT
-    icon: {fileID: 0}
+    icon: {fileID: 2800000, guid: b738673bfb0903c49be3a2512194ebec, type: 3}
     type: 101
     parameter:
       name: droneToggle
@@ -24,7 +24,7 @@ MonoBehaviour:
     subParameters: []
     labels: []
   - name: Drone VR
-    icon: {fileID: 0}
+    icon: {fileID: 2800000, guid: 6f02da7a5b796ce46be2d3f01aaee202, type: 3}
     type: 101
     parameter:
       name: droneToggle
@@ -34,7 +34,7 @@ MonoBehaviour:
     subParameters: []
     labels: []
   - name: Drone OFF
-    icon: {fileID: 0}
+    icon: {fileID: 2800000, guid: 671eacbc1e304f341af03098f2671784, type: 3}
     type: 101
     parameter:
       name: droneToggle
@@ -44,7 +44,7 @@ MonoBehaviour:
     subParameters: []
     labels: []
   - name: Drone Return
-    icon: {fileID: 0}
+    icon: {fileID: 2800000, guid: f116eaa74bd1a8647954007f0d67e714, type: 3}
     type: 101
     parameter:
       name: droneToggle
@@ -54,7 +54,7 @@ MonoBehaviour:
     subParameters: []
     labels: []
   - name: Drone Settings
-    icon: {fileID: 0}
+    icon: {fileID: 2800000, guid: 9f6821b7976345e4387937b99e12f200, type: 3}
     type: 103
     parameter:
       name: 

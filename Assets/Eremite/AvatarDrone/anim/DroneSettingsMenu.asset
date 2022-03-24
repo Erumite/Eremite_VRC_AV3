@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   controls:
   - name: Speed
-    icon: {fileID: 0}
+    icon: {fileID: 2800000, guid: e326badbeb0e41c4d9693c7739750719, type: 3}
     type: 203
     parameter:
       name: 
@@ -35,7 +35,7 @@ MonoBehaviour:
     subParameters: []
     labels: []
   - name: Light Toggle
-    icon: {fileID: 0}
+    icon: {fileID: 2800000, guid: 562c9e26cc8561242b8db95fbb84be29, type: 3}
     type: 101
     parameter:
       name: droneToggle
@@ -45,7 +45,7 @@ MonoBehaviour:
     subParameters: []
     labels: []
   - name: NightVision Toggle
-    icon: {fileID: 0}
+    icon: {fileID: 2800000, guid: 43991fedf6946904fa28cf9902458348, type: 3}
     type: 101
     parameter:
       name: droneToggle
