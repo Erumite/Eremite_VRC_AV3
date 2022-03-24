@@ -4,8 +4,8 @@
 Performance: <img src="https://i.imgur.com/PVUCZQR.png" width="24"/> Excellent  
 *The base drone system doesn't contain anything that triggers the performance ranking system*
 
-**Addons** might cause the performance rank to dip though. These things will affect the ranking:
-
+**Addons** might cause the performance rank to dip though. These things will affect the ranking:  
+<img src="https://i.imgur.com/zK7p4wv.png" width="24"/> Good - Adding additional materials/meshes for visual effects (NightVision, etc)  
 <img src="https://i.imgur.com/KH1tTxY.png" width="24"/> Poor - Adding a light to the drone (even though it's local-only).
 
 ### Drone System & Readme Under Construction
@@ -30,6 +30,7 @@ INT - DroneToggles
    * 5 = All OFF
    * 6 = Light Toggle
    * 7 = Toggle NightVision
+   * 8 = Homing Mode
 
 FLOAT - droneSpeed
   - Set the speed of the drone
