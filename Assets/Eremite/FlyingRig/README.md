@@ -31,8 +31,8 @@ Improved a bit with some constraint magic to allow control:
 4. See the `takeoff` and `not-flying` animations in the example to see a possible way to set up your SDK3 animator.
 5. *Optional* : Disable the mesh renderer for `lolfly/pitterpat` and add your own effects.  It's just there to demo how it works.
 6. *Optional* : Tweak the `Weight` value of the `Rotation Constraint` to fine-tune how it adjusts to gain/lower altitude. 
-  * A `1.0` value exactly matches head rotation (doesn't go straight up/down in Desktop)
-  * A lower value doesn't gain/lose altitude as fast, but is less likely to YEET you around.
+   * A `1.0` value exactly matches head rotation (doesn't go straight up/down in Desktop)
+   * A lower value doesn't gain/lose altitude as fast, but is less likely to YEET you around.
 
 
 ### Troubleshooting
