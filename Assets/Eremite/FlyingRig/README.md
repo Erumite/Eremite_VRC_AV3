@@ -18,6 +18,7 @@ Improved a bit with some constraint magic to allow control:
 * Toggle the flying off for quick descent.
 * Smooth hovering while standing still, very slow altitude loss.
 * Worlds without jumping - You can take off by stepping off of something or bumping against the wall while looking up.
+* Most avatars can spam jump to speed boost - your mileage may vary depending on avatar/animations.
 * Only enables *locally* for best performance for others.
 
 ### Preview, kinda:
@@ -28,12 +29,10 @@ Improved a bit with some constraint magic to allow control:
 2. Drag the `lolfly` game object into the avatar root (alongside armature/body)
 3. On the `pitterpat` game object, set the rotation constraint to the avatar's head.
 4. See the `takeoff` and `not-flying` animations in the example to see a possible way to set up your SDK3 animator.
-
-**Optional**:
-5. Disable the mesh renderer for `lolfly/pitterpat` and add your own effects.  It's just there to demo how it works.
-6. Tweak the `Weight` value of the `Rotation Constraint` to fine-tune how it adjusts to gain/lower altitude.  
-  * A `1.0` value exactly matches head rotation (doesn't go straight up/down in Desktop)
-  * A lower value doesn't gain/lose altitude as fast, but is less likely to YEET you around.
+5. *Optional* : Disable the mesh renderer for `lolfly/pitterpat` and add your own effects.  It's just there to demo how it works.
+6. *Optional* : Tweak the `Weight` value of the `Rotation Constraint` to fine-tune how it adjusts to gain/lower altitude. 
+   * A `1.0` value exactly matches head rotation (doesn't go straight up/down in Desktop)
+   * A lower value doesn't gain/lose altitude as fast, but is less likely to YEET you around.
 
 
 ### Troubleshooting
