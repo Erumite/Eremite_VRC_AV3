@@ -154,7 +154,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: -0.1}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
-  m_ConstrainProportionsScale: 0
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 421762973}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -453,7 +453,7 @@ Transform:
   m_LocalRotation: {x: -0, y: -0.9991266, z: 0, w: 0.04178495}
   m_LocalPosition: {x: 0.0000002940651, y: 1.6587644, z: -0.036443584}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 54747636}
   m_Father: {fileID: 858590714}
@@ -1159,7 +1159,7 @@ MonoBehaviour:
   blueprintId: avtr_5f6f1732-eee1-49cb-89d6-753dbb68224a
   contentType: 0
   assetBundleUnityVersion: 
-  fallbackStatus: 3
+  fallbackStatus: 1
 --- !u!114 &858590712
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1322,10 +1322,10 @@ MonoBehaviour:
     isDefault: 1
   AnimationPreset: {fileID: 0}
   animationHashSet:
-  - hash: 1529420676
-    name: not_flying
-  - hash: 1664264544
-    name: takeoff
+  - hash: -1614773086
+    name: NightVision_OFF
+  - hash: 2127691540
+    name: NightVision_ON
   autoFootsteps: 1
   autoLocomotion: 1
   collider_head:
@@ -1472,7 +1472,7 @@ Transform:
   m_LocalRotation: {x: -0, y: 0.9991266, z: -0, w: 0.04178495}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 1214909897}
   - {fileID: 1995378950}
